@@ -24,7 +24,7 @@ class MagasinTest {
     }
 
     @Test
-    void supprimerProduit() {
+    void rechercherParNom() {
         inventaire.ajouterProduit(vetement);
 
         List<Produit> resultats = inventaire.rechercherParNom("short");
